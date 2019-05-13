@@ -17,12 +17,19 @@ header img
 {
 	float: left;
 	margin-right: 15px;
+	z-index: 10;
 }
 header
 {
 	display: grid;
 	grid-template-columns: 200px auto;
+	background: #AFEEEE;
 }
+.menutren ul
+{
+	background: #AFEEEE;	
+}
+
 ul
 {
 	margin: 0;
@@ -105,6 +112,8 @@ li:hover > .menucapcuoi > ul
 {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
+	grid-gap: 2px;
+	background: #DCDCDC;
 
 }
 #baiviet article img
@@ -126,7 +135,8 @@ footer, address
 {
 	font-weight: bold;
 	text-align: center;
-
+background: #191970;
+color: white;
 }
 html
 {
